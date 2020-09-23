@@ -4,3 +4,5 @@ language: bash
 before_install:
  - curl https://raw.githubusercontent.com/express42/otus-homeworks/2020-08/run.sh |
 bash
+notifications:
+  slack: devops-team-otus:1R05HM311xvjqGfiEYnMwCD9
