@@ -2,8 +2,8 @@
 
 ### Адреса для подключения:
 ```
-bastion_IP=178.154.246.168
-someinternalhost_IP=10.130.0.22
+bastion_IP = 178.154.246.168
+someinternalhost_IP = 10.130.0.22
 ```
 ### Проверено сквозное подключение с помощью SSH Agent Forwarding (опция -A):
 
