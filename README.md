@@ -2,6 +2,24 @@
 
 palmin-albert333 Infra repository
 
+## Домашнее задание к лекции 6
+
+### Адрес для подключения
+
+testapp_IP = 178.154.226.77 testapp_port = 9292
+
+### Доп.задание - создание ВМ, используя скрипт с метаданными
+```
+yc compute instance create \
+  --name reddit-app \
+  --hostname reddit-app \
+  --memory=4 \
+  --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=10GB \
+  --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 \
+  --metadata serial-port-enable=1 \
+  --preemptible \
+  --metadata-from-file user-data=./reddit_app_metadata.yaml
+```
 ## Домашнее задание к лекции №5
 
 ### Адреса для подключения:
