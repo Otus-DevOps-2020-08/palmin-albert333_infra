@@ -1,4 +1,4 @@
-#! / bin / bash
+#!/bin/bash
 yc compute instance create \
   --name reddit-full \
   --hostname reddit-full \
