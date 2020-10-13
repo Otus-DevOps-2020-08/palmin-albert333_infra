@@ -6,7 +6,8 @@ palmin-albert333 Infra repository
 
 ### Адрес для подключения
 
-testapp_IP = 178.154.226.77 testapp_port = 9292
+testapp_IP = 178.154.226.77
+testapp_port = 9292
 
 ### Доп.задание - создание ВМ, используя скрипт с метаданными
 ```
