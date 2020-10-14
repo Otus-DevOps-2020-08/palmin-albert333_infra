@@ -6,7 +6,7 @@ palmin-albert333 Infra repository
 
 ### Адрес и порт для подключения:
 
-testapp_IP = 178.154.226.77
+testapp_IP = 84.201.172.30
 
 testapp_port = 9292
 
