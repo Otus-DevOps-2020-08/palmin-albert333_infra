@@ -46,5 +46,6 @@ Host someinternalhost
 ### Адрес и порт для подключения:
 
 testapp_IP = 84.201.172.30
-
 testapp_port = 9292
+
+### Запуск через CLI
