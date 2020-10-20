@@ -79,11 +79,4 @@ Build 'yandex' errored: Failed to find instance ip address: instance has no one 
 
 - Переменные
 `service_account_key_file`, `folder_id` и `source_image_family`
-вынесены в отдельный файл **variables.json**;
-
-- Добавлены дополнительные опции:
-`zone`, `preemptible`;
-
-Создан **bake** образ, с установленным приложением **reddit**;
-
-Создан скрипт `create-reddit-vm.sh` для создания машины с помощью Yandex.Cloud CLI
+вынесены в отдельный файл **variables.json**
