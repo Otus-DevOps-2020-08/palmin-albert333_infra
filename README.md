@@ -80,3 +80,13 @@ Build 'yandex' errored: Failed to find instance ip address: instance has no one 
 - Переменные
 `service_account_key_file`, `folder_id` и `source_image_family`
 вынесены в отдельный файл **variables.json**
+
+## Домашнее задание к лекции №8
+
+### Выполненные действия
+
+- Подготовлена конфигурация **Terraform**;
+
+- Cоздан инстанc в **Yandex Cloud** с **Reddit app**;
+
+- Настроен **load-balancer** для одного и для двух инстансов
