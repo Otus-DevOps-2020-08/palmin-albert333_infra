@@ -89,4 +89,4 @@ Build 'yandex' errored: Failed to find instance ip address: instance has no one 
 
 - Cоздан инстанc в **Yandex Cloud** с **Reddit app**;
 
-- Настроен **load-balancer** для одного и для двух инстансов
+- Настроен **load-balancer**
