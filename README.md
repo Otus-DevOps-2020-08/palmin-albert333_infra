@@ -90,3 +90,10 @@ Build 'yandex' errored: Failed to find instance ip address: instance has no one 
 - Cоздан инстанc в **Yandex Cloud** с **Reddit app**;
 
 - Настроен **load-balancer**
+
+## Домашнее задание к лекции №9
+
+* Сборка образа с приложением: `packer build -var-file="./packer/variables.json" ./packer/app.json`
+* Сборка образа с базой данных: `packer build -var-file="./packer/variables.json" ./packer/db.json`
+* Созданы terraform модули: app, db, vpc
+* Созданы окружения: prod, stage
