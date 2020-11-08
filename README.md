@@ -97,3 +97,16 @@ Build 'yandex' errored: Failed to find instance ip address: instance has no one 
 * Сборка образа с базой данных: `packer build -var-file="./packer/variables.json" ./packer/db.json`
 * Созданы terraform модули: app, db, vpc
 * Созданы окружения: prod, stage
+
+## Домашнее задание к лекции №10
+
+### Выполненные действия
+
+- Написан ansible-playbook clone.yml и inventory файл;
+
+- На VM app была применена комманда, которая клонировала репозиторий с **github>
+
+- Была применена команда удаления репозитория **reddit** через модуль `-m comma>
+
+- и выполнен плейбук `ansible-playbook clone.yml`
+
